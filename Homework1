@@ -1,0 +1,21 @@
+//
+//  main.m
+//  Lesson1
+//
+//  Created by Admin on 25.01.16.
+//  Copyright © 2016 Ehlakov Victor. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        NSArray * artists = @[@"Vladimir Vysotsky", @"Rammstein", @"Wardruna", @"Foals ", @"Lemaitre feat. Jennie A"];
+        NSArray * songs = @[@"Ballad of the fight", @"America", @"Heimta Thurs", @"Late Night", @"Closer"];
+        for(int i = 0; i < artists.count; i++){
+            NSLog(@"The song %@ by %@.", [songs objectAtIndex:i], [artists objectAtIndex:i]);
+                
+            }
+    }
+    return 0;
+}
